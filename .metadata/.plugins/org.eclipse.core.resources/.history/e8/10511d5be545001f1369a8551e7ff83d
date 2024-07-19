@@ -1,0 +1,19 @@
+
+<!-- dashboard.jsp -->
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1>
+        <a href="upload.jsp" class="btn btn-primary">Upload Material</a>
+        <a href="materials.jsp" class="btn btn-primary">View Materials</a>
+        <a href="logout" class="btn btn-danger">Logout</a>
+    </div>
+</body>
+</html>

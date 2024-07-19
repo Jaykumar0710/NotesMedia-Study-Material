@@ -1,0 +1,15 @@
+// UserDao.java
+package com.example.dao;
+
+import com.example.model.User;
+import java.sql.*;
+
+public class UserDao {
+    public User getUserByUsernameAndPassword(String username, String password) {
+        // Implement database logic to get user by username and password
+    }
+
+    public boolean saveUser(User user) {
+        // Implement database logic to save user
+    }
+}

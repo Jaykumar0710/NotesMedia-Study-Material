@@ -1,0 +1,16 @@
+// MaterialDao.java
+package com.example.dao;
+
+import com.example.model.Material;
+import java.sql.*;
+import java.util.List;
+
+public class MaterialDao {
+    public List<Material> getAllMaterials() {
+        // Implement database logic to get all materials
+    }
+
+    public boolean saveMaterial(Material material) {
+        // Implement database logic to save material
+    }
+}
